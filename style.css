@@ -1,26 +1,33 @@
 body {
     text-align: center;
+    padding: 40px;
+    border: 1px solid black;
+    margin: 30px 130px;
+    border-radius: 50px;
 }
 
 .logo {
     /*width: 50px;*/
     height: 100px;
     border-radius: 20px;
-    border: 1px solid red;
     margin-top: 30px;
     margin-right: 10px;
+    /*margin-left: 20px;*/
 }
 
 .container {
     display: flex;
-    border: 1px solid red;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
     justify-content: space-between;
     height: 140px;
+    padding: 20px;
+    background-color: aqua;
+
 }
 
 h1 {
     font-size: 140px;
-    border: 1px solid red;
     margin-top: 0;
     padding-top: 0;
     box-sizing: border-box;
@@ -45,15 +52,37 @@ li {
     border: 1px solid black;
     border-radius: 20px;
     margin: 10px;
+    background-color: white;
 }
 
 ul {
     display: flex;
     margin: 85px 0;
-    margin-right: 20px;
+    /*margin-right: 40px;*/
+    
     
 }
 
 navMenu {
     justify-content: space-around;
+}
+
+.mainImage {
+    /*margin-right: 20px;*/
+    justify-content: right;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+.mainContainer {
+    display: flex;
+}
+
+.info {
+    padding: 20px 40px 0 40px;
+    box-sizing: border-box;
+}
+
+p {
+    text-align: left;
 }

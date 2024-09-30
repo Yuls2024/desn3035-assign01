@@ -7,19 +7,28 @@ body {
     height: 100px;
     border-radius: 20px;
     border: 1px solid red;
+    margin-top: 30px;
+    margin-right: 10px;
 }
 
 .container {
     display: flex;
     border: 1px solid red;
     justify-content: space-between;
-    height: 120px;
+    height: 140px;
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 140px;
     border: 1px solid red;
     margin-top: 0;
+    padding-top: 0;
+    box-sizing: border-box;
+    height: 140px;
+}
+
+.logoName {
+    display: flex;
 }
 
 a {
@@ -29,9 +38,22 @@ a {
 
 li {
     list-style-type: none;
-    padding: 5px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid red;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
 }
 
 ul {
     display: flex;
+    margin: 85px 0;
+    margin-right: 20px;
+    
+}
+
+navMenu {
+    justify-content: space-around;
 }

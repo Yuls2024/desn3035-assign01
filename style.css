@@ -1,3 +1,16 @@
 body {
     text-align: center;
 }
+
+.logo {
+    width: 80px;
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+h1 {
+    font-size: 100px;
+}
